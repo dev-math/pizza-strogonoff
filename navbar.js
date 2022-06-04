@@ -10,7 +10,7 @@ function navbar() {
             <div class="search_box">
                 <input type="text" class="input" placeholder="">
                 <div class="btn btn_common">
-                    <i class="fas fa-search"></i>
+                    <i class="bi bi-search"></i>
                 </div>
             </div>
         </div>
