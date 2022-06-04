@@ -1,207 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+                                                                                               integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="rastreamento.css">
     <title>Document</title>
     <style>
-        #container{
-           width: 100%;
-           height: 600px;
-           display: flex;
-           text-align: center;
-        }
+#container{
+  margin: 0 auto;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
         #gallery{
-            width: 6%;
-            margin-left: 10%;
-            justify-content: space-between;
+          width: 6%;
+          margin-left: 10%;
+          justify-content: space-between;
         }
         .fullphoto{
-            width: 30%;
-            margin-left: 3%;
-            text-align: left;
+          width: 30%;
+          margin-left: 3%;
+          text-align: left;
         }
         #details{
-            width: 40%;
-            margin-left: 5%;
-            letter-spacing: 1.8px;
-            text-align: center;
-            margin-top: 10px;
+          width: 40%;
+          margin-left: 5%;
+          letter-spacing: 1.8px;
+          text-align: center;
+          margin-top: 10px;
 
         }
         #titlee{
-            padding-right: 60px;
-            color: gray;
+          padding-right: 60px;
+          color: gray;
         }
         #coupan{
-            background-color: rgb(156, 156, 201);
-            width: 60%;
-            height: 50px;
-            padding: 10px 20px 20px 20px;
+          background-color: rgb(156, 156, 201);
+          width: 60%;
+          height: 50px;
+          padding: 10px 20px 20px 20px;
         }
         #color{
-            display: flex;
+          display: flex;
         }
         .padding{
-            padding-top: 5px;
-            padding-left: 5px;
+          padding-top: 5px;
+          padding-left: 5px;
         }
         label{
-        width: 100%;
-        /* margin: 0 3% 11px 0; */
-        /* margin-left: 90px; */
-        /* margin-top: 40px; */
-        min-width: 20%;
-        float: left;
-        clear: both;
-        text-transform: uppercase;
-    }
-
-    #size{
-        width: 100px;
-    }
-    #cart_button{
-        color: white;
-        background-color: green;
-        width: 180px;
-        height: 40px;
-        margin-top: 10px;
-        border: 0px;
-
-    }
-    .pizzamordida{
-            width: 50%;
-            position: ;
+          width: 100%;
+          /* margin: 0 3% 11px 0; */
+          /* margin-left: 90px; */
+          /* margin-top: 40px; */
+          min-width: 20%;
+          float: left;
+          clear: both;
+          text-transform: uppercase;
         }
-    #delivery{
-        width: 80%;
-        border: 1px solid gray;
-    }
-    #size_details{
-        background-color: rgb(223, 217, 217);
-        width: 350px;
-        height: 100px;
-       padding: 5px 5px 5px 5px;
-       line-height: 10px;
-        margin-top: 5px;
-    }
-    #avaliacoes{
-        background-color: white;
-        width: 800px;
-        height: 1000px;
-    }
-    .titutopedido {
-        text-align: center;
-    }
-    #icons1{
-            width: 100%;
-            height: 30px;
-            /* border: 1px solid black; */
-            display: flex;
-            justify-content: space-evenly;
+
+        #size{
+          width: 100px;
+        }
+        #cart_button{
+          color: white;
+          background-color: green;
+          width: 180px;
+          height: 40px;
+          margin-top: 10px;
+          border: 0px;
+
+        }
+        .pizzamordida{
+          width: 50%;
+          position: ;
+        }
+        #delivery{
+          width: 80%;
+          border: 1px solid gray;
+        }
+        #size_details{
+          background-color: rgb(223, 217, 217);
+          width: 350px;
+          height: 100px;
+          padding: 5px 5px 5px 5px;
+          line-height: 10px;
+          margin-top: 5px;
+        }
+        #avaliacoes{
+          background-color: white;
+          width: 800px;
+          height: 1000px;
+        }
+        .titutopedido {
+          text-align: center;
+        }
+        #icons1{
+          width: 100%;
+          height: 30px;
+          /* border: 1px solid black; */
+          display: flex;
+          justify-content: space-evenly;
         }
         #all_details1{
-            width: 100%;
-            height: 200px;
-            display: flex;
-            gap: 10px;
-            background-color: rgb(248, 248, 248);
+          width: 100%;
+          height: 200px;
+          display: flex;
+          gap: 10px;
+          background-color: rgb(248, 248, 248);
         }
         #details1{
-            width: 20%;
-            height: 100%;
-            margin-left: 40px;
+          width: 20%;
+          height: 100%;
+          margin-left: 40px;
         }
         #about1{
-            width: 100%;
-            height: 40px;
-            background-color: rgb(243, 237, 237);
+          width: 100%;
+          height: 40px;
+          background-color: rgb(243, 237, 237);
         }
         #about1{
-            display: flex;
+          display: flex;
         }
         #policy{
-            padding-left: 850px;
+          padding-left: 850px;
         }
         #year{
-            padding-left: 10px;
+          padding-left: 10px;
         }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg bg-dark" style="height: 112px">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="logo"
-                    src="https://css.banggood.in/web/src/img/header-new-logo@2x.png?v=ef2889d"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="logo"
+                                              src="https://css.banggood.in/web/src/img/header-new-logo@2x.png?v=ef2889d"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                                                                                                                                     aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
-                    <li class="nav-item">
-                        <form style="width:500px" class="d-flex" role="search" at>
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </li>
+            <li class="nav-item">
+              <form style="width:500px" class="d-flex" role="search" at>
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </li>
 
-                    <li class="nav-item">
-                        <div class="shipping">
-                            <div class="ship">
-                                <i class="shipto">Ship to</i>
-                                <div class="flag">
-                                    <span>Portuguese (Brazil)</span>
-                                    <span>/</span>
-                                    <span>Reais</span>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+            <li class="nav-item">
+              <div class="shipping">
+                <div class="ship">
+                  <i class="shipto">Ship to</i>
+                  <div class="flag">
+                    <span>Portuguese (Brazil)</span>
+                    <span>/</span>
+                    <span>Reais</span>
+                  </div>
+                </div>
+              </div>
+            </li>
 
-                    <li>&ensp; &ensp;</li>
+            <li>&ensp; &ensp;</li>
 
-                    <li class="nav-item">
-                        <a href="login.html">
-                            <div>
-                                <img class="image" src="profile.png" />
-                                <a class="sign">Ola
-                                    <a class="sign1">Marcos</a>
-                                </a>
-                            </div>
-                        </a>
-                    </li>
+            <li class="nav-item">
+              <a href="login.html">
+                <div>
+                  <img class="image" src="profile.png" />
+                  <a class="sign">Ola
+                    <a class="sign1">Marcos</a>
+                  </a>
+                </div>
+              </a>
+            </li>
 
-                    <li class="nav-item">
-                        <img class="cart" src="cart.png" />
-                    </li>
+            <li class="nav-item">
+              <img class="cart" src="cart.png" />
+            </li>
 
-                   
 
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li> -->
-                </ul>
 
-            </div>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+              </li> -->
+          </ul>
+
         </div>
+      </div>
     </nav>
     <div id="navbar"></div>
     <div id="container">
-        <div id="details">
-            <h2>Seu pedido está aqui:</h2>
-        </div>
+      <div id="details">
+        <h2>Seu pedido está aqui:</h2>
+        <img src="imagens/locais/madagascar.png" id="localizacao" alt="some image">
+        <h3 id="texto"></h3>
+        <h3 id="msgTempo"></h3>
+
+      </div>
     </div>
-    <hr>
-</body>
+    <script type="text/javascript">
+      window.onload = chooseImage;
+
+      var image = new Array("imagens/locais/china.png","imagens/locais/siria.png","imagens/locais/tuvalu.png","imagens/locais/madagascar.png");
+      var boasVindas = new Array("Seu pedido está vindo da China!", "Seu pedido está vendo da Síria - Oriente Médio", "Seu pedido está vindo de Tuvalu - Oceania", "Seu pedido está vindo de Madagascar - Sul da África");
+      var msgTempo = new Array("33 horas", "21 horas", "52 horas", "25 horas");
+
+      function chooseImage() {
+              var randomNum = Math.floor(Math.random() * image.length);
+              document.getElementById("localizacao").src = image[randomNum];
+              document.getElementById("texto").innerText = boasVindas[randomNum];
+              document.getElementById("msgTempo").innerText = "Previsão de entrega: " + msgTempo[randomNum];
+            }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
+  </body>
 </html>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
