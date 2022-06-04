@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <div id="navbar"></div>
+    <!-- <div class="cat ">
+        Categories
+     </div> -->
+     </div>
+     <div class="wel">
+         <div class="clothing">
+             <div class="clothing1">
+             <p class="cloth">Women's Clothing</p>
+             <p class="cloth">Men's Clothing</p>
+             <p class="cloth">Phone & Accessories</p>
+             <p class="cloth">Electronics</p>
+             <p class="cloth">Tools, Industrial & Scientific</p>
+             <p class="cloth">Toys Hobbies and Robot</p>
+             <p class="cloth">Sports & Outdoor</p>
+             <p class="cloth">Home, Garden & Furniture</p>
+             <p class="cloth">Jewelry & Watches</p>
+             <p class="cloth">Home Appliances </p>
+             <p class="cloth">Shoes & Bags</p>
+             <p class="cloth">Health,Beauty & Hair</p>
+             <p class="cloth">Lights & Lighting</p>
+         </div>
+     </div>
+     <div class="drop"> 
+         <img class="drop1" src="https://imgaz.staticbg.com/banggood/os/202203/20220330031323_316.jpg.webp"/>
+       </div>
+       <div class="user">
+           <img class="user1" src="discount.jpeg"/>
+         </div>
+         <div class="bg">
+             <img class="bg1" src="bg.jpeg"/>
+         </div>
+ </div>
+    <h1>Flash Deals</h1>
+    <div id="flash">
+        <a href="blacktee.html"><div class="product">
+            <img class="prdimg" src="https://images.asos-media.com/products/adidas-originals-tonal-textures-waffle-t-shirt-in-carbon-black-with-back-logo/201207139-3?$n_240w$&wid=317&fit=constrain" alt="t-shirt">
+            <p>$55.00</p>
+        </div></a>
+        <a href="sweatshirt.html"><div class="product">
+            <img class="prdimg" src="https://images.asos-media.com/products/adidas-originals-tonal-textures-french-terry-reverse-sweatshirt-in-brown-with-back-logo/201207112-2?$n_240w$&wid=317&fit=constrain" alt="jacket">
+            <p>$65.00</p>
+        </div></a>
+        <a href="jacket.html"><div class="product">
+            <img class="prdimg" src="https://images.asos-media.com/products/adidas-originals-tonal-textures-collegiate-varsity-jacket-in-grey-with-back-logo/201217425-1-grey?$n_320w$&wid=317&fit=constrain" alt="t-shirt">
+            <p>$55.00</p>
+        </div></a>
+        <a href="whitet.html"><div class="product">
+            <img class="prdimg" src="https://images.asos-media.com/products/adidas-originals-tonal-textures-waffle-t-shirt-in-chalk-white-with-back-logo/201207158-1-white?$n_320w$&wid=317&fit=constrain" alt="t-shirt">
+            <p>$45.00</p>
+        </div></a>
+    </div>
+    <h1>Recommendations For You</h1>
+    <div id="container"></div>
+    <div id="footer"></div>
+</body>
+</html>
+<script src="index.js"></script>
+<script type="module">
+     import {navbar} from "./navbar.js";
+    var nav = document.querySelector("#navbar");
+    nav.innerHTML = navbar();
+    import {footer} from "./footer.js";
+    var foot = document.querySelector("#footer");
+    foot.innerHTML = footer();
+</script>

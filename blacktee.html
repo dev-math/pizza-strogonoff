@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Document</title>
+    <style>
+        #container{
+           width: 100%;
+           height: 600px;
+           display: flex;
+           margin-top: 20px;
+        }
+        #gallery{
+            width: 6%;
+            margin-left: 10%;
+            justify-content: space-between;
+        }
+        #fullphoto{
+            width: 30%;
+            margin-left: 3%;
+        }
+        #details{
+            width: 40%;
+            margin-left: 5%;
+            letter-spacing: 1.8px;
+
+        }
+        #titlee{
+            padding-right: 60px;
+            color: gray;
+        }
+        #coupan{
+            background-color: rgb(156, 156, 201);
+            width: 60%;
+            height: 50px;
+            padding: 10px 20px 20px 20px;
+        }
+        #color{
+            display: flex;
+        }
+        .padding{
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+        label{
+        width: 100%;
+        /* margin: 0 3% 11px 0; */
+        /* margin-left: 90px; */
+        /* margin-top: 40px; */
+        min-width: 20%;
+        float: left;
+        clear: both;
+        text-transform: uppercase;
+    }
+
+    #size{
+        width: 100px;
+    }
+    #cart_button{
+        color: white;
+        background-color: green;
+        width: 180px;
+        height: 40px;
+        margin-top: 10px;
+        border: 0px;
+
+    }
+    #delivery{
+        width: 80%;
+        border: 1px solid gray;
+    }
+    #size_details{
+        background-color: rgb(223, 217, 217);
+        width: 250px;
+        height: 100px;
+       padding: 5px 5px 5px 5px;
+       line-height: 10px;
+        margin-top: 5px;
+    }
+    #icons1{
+            width: 100%;
+            height: 30px;
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #all_details1{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            gap: 10px;
+            background-color: rgb(248, 248, 248);
+        }
+        #details1{
+            width: 20%;
+            height: 100%;
+            margin-left: 40px;
+        }
+        #about1{
+            width: 100%;
+            height: 40px;
+            background-color: rgb(243, 237, 237);
+        }
+        #about1{
+            display: flex;
+        }
+        #policy{
+            padding-left: 850px;
+        }
+        #year{
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+   <div id="navbar"></div>
+    <div id="container">
+        <div id="gallery">
+          <img src="https://images.asos-media.com/products/adidas-originals-tonal-textures-waffle-t-shirt-in-carbon-black-with-back-logo/201207139-1-black?$n_320w$&wid=317&fit=constrain" alt="t-shirt" width="100%" height="80px" onclick="clickme(this)">
+            <img src="https://images.asos-media.com/products/adidas-originals-tonal-textures-waffle-t-shirt-in-carbon-black-with-back-logo/201207139-2?$n_240w$&wid=317&fit=constrain" alt="t-shirt" width="100%" onclick="clickme(this)">
+            <img src="https://images.asos-media.com/products/adidas-originals-tonal-textures-waffle-t-shirt-in-carbon-black-with-back-logo/201207139-3?$n_240w$&wid=317&fit=constrain" alt="t-shirt" width="100%" onclick="clickme(this)">
+            <img src="https://images.asos-media.com/products/adidas-originals-tonal-textures-waffle-t-shirt-in-carbon-black-with-back-logo/201207139-4?$n_240w$&wid=317&fit=constrain" alt="t-shirt" width="100%" onclick="clickme(this)">
+        </div>
+        <div id="fullphoto">
+            <img id="fullpic" src="https://images.asos-media.com/products/adidas-originals-tonal-textures-waffle-t-shirt-in-carbon-black-with-back-logo/201207139-1-black?$n_320w$&wid=317&fit=constrain" alt="sweatshirt" width="100%">
+        </div>
+        <div id="details">
+            <h3 id="titlee">adidas Originals 'Tonal Textures' french terry reverse sweatshirt in brown with back logo</h3>
+            <h2> $65.00</h2>
+            <div id="coupan">
+                <p>25% OFF EVERYTHING NOW! <br>
+                    With code: YESPLS</p>
+            </div>
+            <div id="color">
+            <h5>COLOR :</h5>
+            <p class="padding">Brown</p>
+            </div>
+            <label for="">SIZE :</label>
+            <select name="size" id="size">
+
+                <option value="select size">SELECT SIZE</option>
+                <option value="small">SMALL</option>
+                <option value="medium">MEDIUM</option>
+                <option value="large">LARGE</option>
+
+            </select><br>
+            <button id="cart_button" onclick="addcart()">ADD TO CART</button>
+          
+            <div id="size_details">
+                <h5>SIZING HELP</h5>
+                <p>Still unsure what size to get?</p>
+                <p>Find your recommended size.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="footer"></div>
+</body>
+</html>
+<script type="module">
+     import {navbar} from "./navbar.js";
+    var nav = document.querySelector("#navbar");
+    nav.innerHTML = navbar();
+    import {footer} from "./footer.js";
+    var foot = document.querySelector("#footer");
+    foot.innerHTML = footer();
+    
+</script>
+
+<script>
+    function clickme(smallImg) {
+
+var fullImg = document.getElementById("fullpic");
+fullImg.src = smallImg.src;
+}
+function addcart(){
+    location.replace("checkout.html")
+}
+</script>

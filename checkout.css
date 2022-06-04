@@ -1,0 +1,223 @@
+.hell {
+  width: 100%;
+  height: 24px;
+  /* border: 1px solid black; */
+  margin-top: -7px;
+  display: flex;
+  background-color: black;
+}
+.hell1 {
+  height: 100%;
+  width: 18px;
+  margin-left: 1050px;
+  cursor: pointer;
+}
+.hell2 {
+  font-weight: 400;
+  line-height: 24px;
+  color: hsla(0, 0%, 100%);
+  font-size: 12px;
+  font-family: OpenSans, Arial;
+  margin-left: 8px;
+  margin-top: -2px;
+  cursor: pointer;
+}
+.check {
+  width: 100%;
+  height: 76px;
+  border: 1px solid white;
+  display: flex;
+}
+.check1 {
+  width: 150px;
+  height: 80px;
+  margin-left: 60px;
+}
+.vr {
+  /* border: 1px solid green; */
+  height: 20px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.sec {
+  height: 30px;
+  width: 30px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.pay {
+  font-family: OpenSans, Arial;
+  font-size: 14px;
+  margin-top: 35px;
+  margin-left: 5px;
+  color: green;
+}
+
+.add {
+  height: 400px;
+  width: 840px;
+  
+   border-radius: 3px;
+  margin-top: 20px;
+  background-color: #fff;
+  margin-left: 70px;
+  /* display: flex; */
+}
+.ship {
+  font-family: OpenSans, Arial;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.cont{
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid green; */
+   display: flex;
+}
+.cont1{
+  width:50%;
+  height:100%;
+
+  
+}
+.list{
+ 
+   /* border: 1px solid red;  */
+  height: 300px;
+  margin-top: 20px;
+
+}
+.list1{
+  font-family: OpenSans,Arial;
+  font-weight: 400;
+  line-height: 18px;
+  color: #999;
+  font-size:12px;
+  
+}
+ 
+
+  .text1{
+  height: 20px;
+   width: 180px; 
+   font-size: 14px;
+    border: none;
+    outline: none; 
+border-bottom: 1px solid #dadae0;
+margin-top: 10px;
+} 
+ 
+.text2{
+  height: 20px;
+  width: 180px; 
+  font-size: 14px;
+   border: none;
+  outline: none; 
+border-bottom: 1px solid #dadae0;
+margin-left: 10px;
+margin-top: 10px;
+}
+.text3{
+  height: 20px;
+  width: 90%; 
+  font-size: 14px;
+   border: none;
+  outline: none; 
+border-bottom: 1px solid #dadae0; 
+margin-top: 10px;
+}
+
+.line{
+  width: 100%;
+  height: 60px;
+  /* border: 1px solid green; */
+   display: flex;
+   margin-top: 15px;
+}
+.street{
+  height: 20px;
+  width: 90%; 
+  font-size: 14px;
+   border: none;
+  outline: none; 
+border-bottom: 1px solid #dadae0; 
+margin-top: 10px;
+}
+.def{
+  width:100%;
+  height: 30px;
+  /* border: 1px solid black; */
+  margin-top: 5px;
+  display: flex;
+}
+.tick{
+  width:40%;
+  height: 30px;
+  display: flex;
+}
+.tick1{
+  /* position: absolute; */
+
+  margin-left:10px;
+  width: 20px;
+  height: 18px;
+  background: #fff;
+  border: 1px solid #c6c6cc;
+  border-radius: 4px
+}
+.tick2 {
+  font-size: 13px;
+    font-family: OpenSans;
+    font-weight: 400;
+    line-height: 18px;
+    color: #999;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+
+
+.button{
+  width:208px;
+  height: 80px;
+   /* border:1px solid blue;  */
+  margin-left: 250px;
+}
+.button1{
+  color: #333;
+  border-color: #ebedf0;
+  background: #fff;
+ transition: all .3s;
+ justify-content: center;
+ width: 96px;
+ border: 1px solid #ebedf0;
+ border-radius: 4px;
+ font-size: 14px;
+ font-family: OpenSans;
+ font-weight: 700;
+ line-height: 18px;
+margin-left: 8px;
+ cursor: pointer;
+ height:38px;
+}
+
+.button2{
+  color: #fff;
+    background: #ff6e26;
+    border: 1px solid rgba(0,0,0,0);
+    transition: all .3s;
+    justify-content: center;
+    width: 96px;
+    border: 1px solid #ebedf0;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: OpenSans;
+    font-weight: 700;
+    line-height: 18px;
+   margin-left: 8px;
+    cursor: pointer;
+    height:40px;
+}
+.back{
+  background-color:whitesmoke;
+}

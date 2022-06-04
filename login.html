@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #header{
+            width: 100%;
+            height: 100px;
+            background-color: white;
+        }
+        body{
+            background-color: gainsboro;
+        }
+        #header>img{
+            margin-top: 25px;
+            margin-left: 150px;
+        }   
+        #main{
+           width: 400px;
+           height: 430px;
+           background-color: white;
+           margin: auto;
+           margin-top: 50px; 
+        }   
+        #container{
+            display: flex;
+            justify-content: space-evenly;
+            font-family: sans-serif;
+            cursor: pointer;
+        }
+        input{
+            width: 300px;
+            height: 40px;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+        #submit{
+            width: 305px;
+            font-size: 18px;
+            color: white;
+            background-color: orangered;
+            border: none;
+            border-radius: 5px;
+        }
+        #signin{
+            display: none;
+        }
+        
+        
+      
+        #proceed{
+            width: 305px;
+            font-size: 18px;
+            color: white;
+            background-color: orangered;
+            border: none;
+            border-radius: 5px;
+        }
+        #footer{
+            width: 100%;
+            height: 200px;
+            background-color: white;
+        }
+        h5{
+            margin-left: 350px;
+            padding-top: 50px;
+        }
+        #footer>p{
+            margin-left: 400px;
+
+        }
+        #fgt{
+            margin-left: 40px;
+        }
+        #quik{
+            margin-left: 100px;
+        }
+        #note{
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="https://css.banggood.in/web/src/img/login/logo.png?v=4bb0729" alt="">
+    </div>
+    <div id="main">
+        <div id="container">
+            <h2 onclick="boom()">SIGN IN</h2>
+            <h2 onclick="boom1()">REGISTER</h2>
+        </div>
+        <div id="signin">
+            <input type="email" id="email_check" placeholder="Email">
+            <input type="password" id="pass_check" placeholder="Password">
+            <input type="submit" value="Sign in" id="submit" onclick="checkdata()">
+            <p id="note"></p>
+            <p id="fgt">Forgot password ?</p>
+            <h3 id="quik">Quick Access With</h3>
+        </div>
+        <div id="signup">
+            <input type="email" id="email" placeholder="Email">
+            <input type="password" id="pass" placeholder="Password">
+            <input type="submit" value="Create Account" id="proceed" onclick="submitdata()">
+            <p id="note"></p>
+            <p id="fgt">Forgot password ?</p>
+            <h3 id="quik">Quick Access With</h3>
+        </div>
+    </div>
+    <div id="footer">
+        <h5>About Banggood.com | Terms And Conditions | Privacy Policy | Help Center
+        </h5>
+        <p>Copyright © 2006-2022 Banggood All Rights Reserved.</p>
+    </div>
+</body>
+</html>
+<script src="./login.js"></script>

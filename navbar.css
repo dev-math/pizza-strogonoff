@@ -1,0 +1,116 @@
+.header {
+    width: 100%;
+    height: 90px;
+    padding: 12px 0 10px;
+    background: #2d2d38;
+    box-sizing: initial;
+    display: flex;
+  }
+  .logo {
+    position: relative;
+    vertical-align: top;
+    top: 0;
+    width: 158px;
+    height: 50px;
+    margin: 0 100px;
+  }
+  
+  .container .input {
+    border: 0;
+    outline: none;
+    color: #8b7d77;
+  }
+  
+  .search_wrap {
+    margin-left: -30px;
+  }
+  
+  .search_wrap .search_box {
+    position: relative;
+    width: 494px;
+    height: 38px;
+  }
+  
+  .search_wrap .search_box .input {
+    width: 520px;
+    height: 36px;
+    border-radius: 3px;
+  }
+  
+  .search_wrap .search_box .btn {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 60px;
+    height: 100%;
+    background: orange;
+  
+    cursor: pointer;
+  }
+  
+  .search_wrap .search_box .btn.btn_common .fas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 20px;
+  }
+  .shipping {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    top: 0;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 3px 28px 0 60px;
+    padding: 0;
+  }
+  .ship {
+    position: relative;
+    padding-right: 12px;
+    text-align: left;
+    height: 30px;
+    width: 154px;
+  }
+  .shipto {
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-style: normal;
+  }
+  .flag {
+    font-size: 13px;
+    color: #fff;
+    margin-top: 4px;
+    font-family: OpenSans, Arial;
+  }
+  .image {
+    height: 45px;
+    margin-left: -30px;
+  }
+  .sign {
+    display: block;
+    margin-top: -40px;
+    margin-left: 20px;
+    line-height: 10px;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 13px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .sign1 {
+    margin-left: 20px;
+    color: whitesmoke;
+    font-family: OpenSans, Arial;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .cart {
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
