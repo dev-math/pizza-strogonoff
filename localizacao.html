@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Random Image</title>
+     <script src="script10.js"></script>
+     <link rel="stylesheet" href="script01.css">
+</head>
+<body>
+	<script type="text/javascript">
+		window.onload = chooseImage;
+
+		var image = new Array("images/brasil.png","images/china.png","images/siria.jpg","images/suriname.png","images/tuvalu.png","images/lituania","images/madagascar","images/gabao","images/brunei");
+
+		function chooseImage() {
+     		var randomNum = Math.floor(Math.random() * image.length);
+     		document.getElementById("localizacao").src = image[randomNum];
+     	}
+     	</script>
+     <img src="images/brasil.png" width="305" height="312" id="localizacao" alt="some image">
+</body>
+</html>
