@@ -1,4 +1,4 @@
-function navbar(){
+function navbar() {
     return `    <div class="header">
     <div>
         <img class="logo" src="https://css.banggood.in/web/src/img/header-new-logo@2x.png?v=ef2889d">
@@ -21,9 +21,9 @@ function navbar(){
     <div class="ship">
         <i class="shipto">Ship to</i>
         <div class="flag">
-            <span>English (India)</span>
+            <span>Portuguese (Brazil)</span>
             <span>/</span>
-            <span>USD</span>
+            <span>Reais</span>
         </div>
     </div>
 </div>
@@ -40,4 +40,4 @@ function navbar(){
 `
 }
 
-export{navbar};
+export { navbar };
