@@ -1,4 +1,4 @@
-var maindata = [{
+/*var maindata = [{
     productimg1: "https://imgaz1.staticbg.com/thumb/gallery/oaupload/ser1/banggood/images/58/CF/72f73973-140d-4d7b-9630-c305d9926327.jpg.webp",
     productprice:"US$95.99",
 },{
@@ -156,5 +156,6 @@ maindata.map(function (data){
 
 
     document.querySelector("#container").append(div);
-});
+});*/
+
 
